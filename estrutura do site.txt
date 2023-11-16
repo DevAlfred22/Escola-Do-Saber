@@ -1,0 +1,23 @@
+tema: Inteligencia Artificial
+
+Copywritte-pesquisa de duas fontes+chatgpt
+imagens-duas imagens,icone
+video- 01 Youtube
+links-fonte de pesquisa e um exemplo de Ia
+
+Copy
+
+Introdução-O que é Para que serve
+Desenvolvimento -Prós e contras
+Conclusão-Uma ideia final e um exemplo
+
+color:
+-#00796B
+#B2DFDB
+#009688
+#FFFFFF
+#00BCD4
+#212121
+#212121
+#757575
+#BDBDBD

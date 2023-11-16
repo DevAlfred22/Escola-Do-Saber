@@ -1,0 +1,238 @@
+@charset "utf-8";
+
+*{
+margin: 0px;
+padding: 0px;
+}
+:root{
+
+    --cor00:#00796B;
+    --cor01:#B2DFDB;
+    --cor02:#009688;
+    --cor03:#FFFFFF;
+    --cor04:#00BCD4;
+    --cor05:#212121;
+    --cor06:#212121;
+    --cor07:#757575;
+    --cor08:#BDBDBD;
+
+
+}
+
+
+body{
+
+    background-color: silver;
+}
+
+header{
+
+    background-image:linear-gradient(to top,#153834,#009688)
+}
+
+header>h2{
+
+   
+    text-align: right;
+    font-size: 2.7em;
+    color: var(--cor04);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 30px;
+    padding-top: 10px;
+   
+}
+
+header>img{
+
+    position: relative;
+    top: -65px;
+    left: 0%;
+}
+
+nav{
+    background-color:#153834;
+    padding: 5px;
+}
+
+nav>a{
+  
+         
+    padding: 10px;
+    text-decoration: none;
+    font-size: bold;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition-duration: .3s;
+
+        }
+
+ nav>a:link,nav>a:visited{
+
+    color:var(--cor04);
+
+        }
+
+
+nav > a:hover {
+
+    background-color: white;
+
+        }
+
+ h2{
+
+     color:rgb(255, 255, 255);
+     
+        }
+
+ h3{
+      color: black;
+
+        }
+
+ #artigo02>h2{
+
+      color: rgb(0, 0, 0);
+      text-align: center;
+
+        }
+
+
+  
+article{
+
+    position: relative;
+    top: -305px;
+    left: 823px;
+    width: 387px;
+    height: 225px;
+    background-color: red;
+}
+
+article>img{
+
+    width: 387px;
+    height: 225px;
+}
+
+section{
+
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 1680px;
+    padding: 10px;
+    
+  
+}
+
+#artigo00{
+
+    background-color: rgb(192, 245, 245);
+    color: rgb(0, 0, 0);
+
+    width: 700px;
+    height: 390px;
+
+    padding: 30px;
+    margin-top:10px ;
+    
+    font-weight: bold;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+    border-radius: 1%;
+    box-shadow: 2px 0px 14px 1px black;
+
+
+}
+
+
+
+#artigo01{
+
+    background-image: url(efeito\ parallax000.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    background-attachment: fixed;
+  
+    height: 465px;
+
+    color: white;
+    box-shadow: inset 6px 6px 14px 0px black;
+
+    font-weight: bold;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+
+    line-height: 1.4;
+    padding: 30px;
+    padding-top: 10px;
+
+    margin-top: 20px;
+
+}
+
+#artigo02{
+
+    background-color: rgb(192, 245, 245);
+    color: rgb(0, 0, 0);
+
+    width: 650px;
+    height: 590px;
+
+    padding: 30px;
+    margin: 15px;
+    
+    font-weight: bold;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+    border-radius: 1%;
+    box-shadow: 2px 0px 14px 1px black;
+
+
+}
+
+aside{ 
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: -505px;
+    left: 57%;
+ width: 565px;
+ height: 320px;
+
+}
+
+footer{
+
+    background-color: var(--cor02);
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    margin-top: 1px;
+    padding: 10px;
+    border: 1px solid black;
+   
+ 
+}
+
+footer a{
+
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+
+footer a:hover{
+
+    text-decoration: underline;
+    color: var(--cor05);
+    background: var(--cor01);  
+
+}        
+
